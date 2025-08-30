@@ -1,0 +1,33 @@
+{
+  "name": "ical-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for viewing macOS calendar events",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "ical": "./index.ts"
+  },
+  "keywords": ["calendar", "cli", "macos", "events", "ical"],
+  "author": "Hoewon Jeong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hewonjeong/ical-cli.git"
+  },
+  "homepage": "https://github.com/hewonjeong/ical-cli",
+  "bugs": "https://github.com/hewonjeong/ical-cli/issues",
+  "os": ["darwin"],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.8.4",
+    "eventkit-node": "^1.0.3"
+  }
+}
